@@ -1,8 +1,8 @@
 {
-  "name": "goit-react-hw-07-phonebook",
+  "name": "goit-react-hw-07-phonebook-server",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Sidorka1984.github.io/goit-react-hw-07-phonebook",
+  "homepage": "https://Sidorka1984.github.io/goit-react-hw-07-phonebook-server",
   "dependencies": {
     "@emotion/react": "^11.4.0",
     "@emotion/styled": "^11.3.0",
@@ -34,7 +34,8 @@
     "eject": "react-scripts eject",
     "prepare": "husky install",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "server": "json-server --watch db.json --port 7777 --delay 1000"
   },
   "eslintConfig": {
     "extends": [
@@ -59,7 +60,8 @@
     "husky": "^6.0.0",
     "lint-staged": "^11.0.0",
     "prettier": "^2.3.2",
-    "redux-devtools-extension": "^2.13.9"
+    "redux-devtools-extension": "^2.13.9",
+    "json-server": "^0.16.3"
   },
   "lint-staged": {
     "*.js": "eslint --cache --fix",
