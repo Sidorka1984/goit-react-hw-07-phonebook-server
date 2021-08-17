@@ -1,7 +1,7 @@
 import styled from '@emotion/styled'
 
 export const Contact = styled.ul`
-width: 320px;
+width: 400px;
 padding: 0;
 `
 
